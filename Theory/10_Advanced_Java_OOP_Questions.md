@@ -125,7 +125,7 @@ Exception handling is a mechanism used to handle runtime errors so that the norm
 
 Important keywords:
 
-1. `try`: Contains code that may generate an exception.
+1. `try`: Contains code that might generate an exception.
 2. `catch`: Handles the exception.
 3. `finally`: Executes after try/catch, whether an exception occurs or not, except in unusual termination cases.
 4. `throw`: Used to explicitly throw an exception.
@@ -206,9 +206,9 @@ Its main interfaces include:
 
 Advantages:
 
-- Makes data storage and management easier.
-- Provides built-in methods for searching and sorting.
-- Reduces programming effort.
-- Supports dynamic data structures.
+1. Makes data storage and management easier.
+2. Provides built-in methods for searching and sorting.
+3. Reduces programming effort.
+4. Supports dynamic data structures.
 
 

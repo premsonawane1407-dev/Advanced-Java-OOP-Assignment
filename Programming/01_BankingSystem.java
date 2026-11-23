@@ -22,6 +22,7 @@ class SavingsAccount extends BankAccount {
         super(name, balance);
     }
 
+    
     double calculateInterest() {
         return balance * 0.04;
     }

@@ -1,4 +1,3 @@
-
 abstract class BankAccount {
     protected String name;
     protected double balance;
@@ -21,8 +20,7 @@ class SavingsAccount extends BankAccount {
     SavingsAccount(String name, double balance) {
         super(name, balance);
     }
-
-    
+   
     double calculateInterest() {
         return balance * 0.04;
     }
